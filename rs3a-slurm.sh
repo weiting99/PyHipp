@@ -4,6 +4,7 @@
 
 #SBATCH --time=1:00:00   # walltime
 #SBATCH --ntasks=1   # number of processor cores (i.e. tasks)
+#SBATCH --cpus-per-task=1 
 #SBATCH --nodes=1   # number of nodes
 #SBATCH -J "rs3a"   # job name
 
